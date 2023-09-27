@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/BhuvanaVangari/dev-connector-microservices.git
+          username: BhuvanaVangari
+          password: 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
+          clone-on-start: true
+          skip-ssl-validation: true
+server:
+  port: 8888
